@@ -1,0 +1,92 @@
+
+.boar{
+    margin-top: 10em;
+    flex-direction: row;
+    display:flex;
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+ .boar > div{
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sub{
+    flex-direction: column;
+    display: flex;
+    background-color:rgba( 240, 240, 240, 0.9 );
+    align-self: start;
+    border-radius: 5px;
+}
+.bb{
+    background-color:white;
+    flex-direction: row;
+    margin-top: 10px;
+    width:230px;
+    line-height:35px;
+    margin-left: 9px;
+    font-weight: lighter;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.edit{
+    margin-left: 8em;
+    display: none;
+}
+.bb:hover .edit{
+    display:inline;
+}
+.bb:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.edit a{
+    color:#000;
+}
+.aa{
+    background-color: white;
+    flex-direction: row;
+    margin-top: 10px;
+    width:230px;
+    line-height: 35px;
+    margin-left: 9px;
+    font-weight: lighter;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.edit1{
+    margin-left: 9em;
+    display:none;
+}
+.aa:hover .edit1{
+    display:inline;
+}
+.aa:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.edit1 a{
+    color:#000;
+}
+.edit2{
+    margin-left: 6em;
+    display:none;
+}
+.aa:hover .edit2{
+    display: inline;
+}
+.edit2 a{
+    color:black;
+}
+.card{
+    font-weight: lighter;margin-top: 10px;margin-bottom: 6px;font-size: 14px;
+}
+.card:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+.but:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}

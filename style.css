@@ -1,0 +1,88 @@
+html { overflow-y: hidden; overflow-x: scroll; }
+body{
+    background-image: url("background.jpg");
+    background-size: inherit;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.row1{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba( 64, 144, 172, 0.65 );
+    height:60px;
+    color:white;
+    width:100%;
+}
+.home{
+    display: inline-block;
+    background-color:darkblue;
+    margin: 10px 20px;
+}
+.home .ho :hover{
+    opacity: 0.75;
+}
+.board{
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: darkblue;
+}
+.board .ho:hover{
+    opacity: 0.75;
+}
+input{
+    background-color:darkblue;
+    margin: 10px 10px;
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+}
+input:focus{
+    background-color: white;
+}
+.last{
+    display:inline-block;
+    background-color: darkblue;
+    margin-left:32em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 11px;
+}
+.lastt{
+    display:inline-block;
+    background-color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 11px;
+    margin-left: 9px;
+}
+.last:hover{
+    opacity: 0.75;
+}
+.lastt:hover{
+    opacity: 0.75;
+}
+.row2{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.253);
+    margin-top: 3.5em;
+    height: 60px;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    color:white;
+}
+.show{
+    margin-left: 66em;
+    padding: 20px;
+}
+.show:hover{
+    opacity: 0.5;
+}
